@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:theme="@style/Theme.AppCompat.Light"
+    app:cardCornerRadius="5dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_lens_activo_24dp"
+                    android:layout_gravity="right"
+                    android:layout_margin="3dp"
+                    />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/servidor_hp_proliant_ml150_v4_gen9"
+                    app:civ_border_width="1dp"
+                    android:layout_gravity="center_horizontal"
+                    app:civ_border_color="@color/divider"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/divider"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"/>
+                <TextView
+                    style="@style/TextPrimary"
+                    android:text="Servidor"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    style="@style/TextSecondary"
+                    android:text="correo"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    style="@style/TextPrimary"
+                    android:text="Ip-Dns"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    style="@style/TextSecondary"
+                    android:text="mail.coagronorte.com.co"
+                    android:layout_gravity="center_horizontal"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#50BFF4"
+                    android:layout_marginTop="10dp"
+                    android:text="Ver Mas ->"
+                    android:textSize="12dp"
+                    android:textColor="@color/icons"
+                    />
+
+</LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
